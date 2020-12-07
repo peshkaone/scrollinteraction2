@@ -1,0 +1,21 @@
+<html>
+<body>
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<script src="https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js"></script>
+<lottie-player id="bgpeshka" src="https://assets5.lottiefiles.com/packages/lf20_hz9akawq.json" background="transparent"></lottie-player>
+   <script>
+
+LottieInteractivity.create({
+  mode: 'scroll',
+  player: '#bgpeshka',
+  actions: [
+    {
+      visibility: [0,1],
+      type: 'seek',
+      frames: [0, 23],
+    },
+  ],
+});
+</script>
+</body>
+</html>
